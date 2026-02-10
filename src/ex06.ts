@@ -3,10 +3,10 @@
 // Use the index signature to create an object and log the value of a dynamically added property.
 
 interface StringNumberDictionary {
-
+  [key: string]: number;
 }
 
-const dictionary = {};
+const dictionary: StringNumberDictionary = {};
 dictionary["one"] = 1;
 dictionary["two"] = 2;
 

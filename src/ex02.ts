@@ -3,10 +3,10 @@
 // Implement the function using the interface and test it.
 
 interface SumFunction {
-
+  (num1: number, num2: number): number;
 }
 
-const sum = (a, b) => a + b;
+const sum: SumFunction = (a, b) => a + b;
 
-console.log(sum(10, 20)); 
+console.log(sum(10, 20));
 // Expected Output: 30

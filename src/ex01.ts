@@ -3,11 +3,13 @@
 // Then, create an object of each kind and log them to the console.
 
 type PersonType = {
-
+  name: string;
+  age: number;
 };
 
 interface PersonInterface {
-
+  name: string;
+  age: number;
 }
 
 const person1 = { name: "Alice", age: 25 };
